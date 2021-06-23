@@ -1,3 +1,5 @@
+firebase-credentials.js
+android-key.js
 node_modules/
 .expo/
 npm-debug.*
@@ -11,6 +13,3 @@ web-build/
 
 # macOS
 .DS_Store
-
-firebase-credentials.js
-android-key.js
