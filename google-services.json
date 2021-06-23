@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1025802325170",
+    "firebase_url": "https://goalsapp-7d5ce-default-rtdb.firebaseio.com",
+    "project_id": "goalsapp-7d5ce",
+    "storage_bucket": "goalsapp-7d5ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1025802325170:android:76ffa091fec0cb2fe28dab",
+        "android_client_info": {
+          "package_name": "goals.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1025802325170-4us7aps6j00bnqf8311v4i6ogrkv30hj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "goals.app",
+            "certificate_hash": "9453a17a24b808a5b6275109fa776da870046734"
+          }
+        },
+        {
+          "client_id": "1025802325170-pa3q5r4m31f3a1q00ft6oq2324g0rkfe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDRMQaj6BndOyKKeJ0NXOCsEakknnua6xE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1025802325170-pa3q5r4m31f3a1q00ft6oq2324g0rkfe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
