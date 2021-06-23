@@ -1,6 +1,6 @@
 import * as firebase from 'firebase'
 import 'firebase/database'
-import {firebaseConfig} from './firebase-credentials'
+import { firebaseConfig } from './firebase-credential';
 
 export function initDb() {
   firebase.initializeApp(firebaseConfig);

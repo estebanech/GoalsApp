@@ -7,7 +7,7 @@ import auth from '@react-native-firebase/auth';
 import {initDb,getUserInfo} from '../helpers/firebase-goals';
 import { AntDesign } from '@expo/vector-icons'; 
 import { Feather } from '@expo/vector-icons'; 
-
+import { androidKey } from '../helpers/android-key';
 
 const Login = ({route, navigation}) => {
 
@@ -25,7 +25,7 @@ const Login = ({route, navigation}) => {
 
     const signInAsync = async () => {
         const { type, accessToken, user, idToken } = await Google.logInAsync({
-            androidClientId: `1025802325170-nj3g3nvmbsuajjd8paegid3i43gjb0rr.apps.googleusercontent.com`,
+            androidClientId: androidKey,
             scopes: ["profile", "email"]
           });
           
